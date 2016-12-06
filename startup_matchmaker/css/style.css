@@ -1,0 +1,130 @@
+body{
+	font-family: 'Oswald', sans-serif;
+}
+
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Merriweather', serif;
+*/
+
+.container{
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+
+header{
+	background: black;
+	color:yellow;
+	overflow: auto;
+	padding: 20px 20px;
+	border-style: solid;
+	border-bottom: 2px solid yellow;
+}
+
+header h1{
+	float:left;
+	font-family: 'Merriweather', serif;
+	font-size: 25px;
+}
+
+header nav{
+	float:right;
+	color:white;
+}
+
+#main_nav li{
+	display: inline-block;
+	padding: 0px 10px 0px 10px;
+}
+
+li:hover{
+	color:yellow;
+}
+
+#header_text {
+	color:black;
+	background: #929596;
+	text-align:center;
+	padding: 20px;
+	font-size: 20px;
+	font-family:"Open+Sans:300i";
+
+}
+
+del{
+	color: #5C5E5E;
+}
+
+span{
+	border-bottom: solid yellow 2px;
+}
+
+#background_picture {
+	background: url(../images/coworking.jpg) no-repeat center center fixed;
+	background-size: cover;
+	overflow:auto;
+}
+
+#float_box {
+	float:right;
+	width: 25%;
+	padding: 50px 90px;
+	background: rgba(255, 255, 255, 0.7);
+	margin: 150px 50px;
+	text-align: center;
+	-webkit-box-shadow: 2px 5px 5px 0px rgba(77,75,77,1);
+	-moz-box-shadow: 2px 5px 5px 0px rgba(77,75,77,1);
+	box-shadow: 2px 5px 5px 0px rgba(77,75,77,1);
+}
+
+#float_box button{
+	background-color: yellow;
+}
+
+
+.col{
+display: inline-block;
+width: 33%;
+margin: 40px 0px 40px 0px;
+vertical-align: top;
+text-align:center;
+}
+
+#center_col{
+	border-right: solid grey 1px;
+	border-left: solid grey 1px;
+}
+
+h2{
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+p{
+	font-family: "open sans", sans-serif;
+	padding: 10px 10px;
+	text-align: left;
+}
+
+button{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:900;
+	font-size: 12px;
+	border-radius: 5px;
+	padding: 5px 5px;
+	width: 160px;
+	text-transform:uppercase;
+	color:black;
+}
+
+footer{
+	text-align: center;
+	background:black;
+	color:white;
+	padding: 10px;
+	bottom: 0px;
+}
+
+
